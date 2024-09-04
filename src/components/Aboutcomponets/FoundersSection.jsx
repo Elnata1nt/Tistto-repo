@@ -14,7 +14,7 @@ const FoundersSection = () => {
           className="bg-white border rounded-lg shadow-md p-6 flex flex-col items-center"
         >
           <img
-            src="public/assets/BeatrizD.png"
+            src="/public/assets/BeatrizD.png"
             alt="Beatriz"
             className="w-24 h-24 rounded-full mb-4 object-cover"
           />
@@ -31,7 +31,7 @@ const FoundersSection = () => {
           className="bg-white border rounded-lg shadow-md p-6 flex flex-col items-center"
         >
           <img
-            src="public/assets/VitorMaciel.png"
+            src="/public/assets/VitorMaciel.png"
             alt="Vitor"
             className="w-24 h-24 rounded-full mb-4 object-cover"
           />
