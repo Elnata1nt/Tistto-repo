@@ -3,9 +3,12 @@ import React from "react";
 const AboutUs = () => {
   return (
     <section className="max-w-4xl mx-auto px-4 py-12">
-      <h1 className="text-3xl font-bold mb-6 text-center">
+      <h1 className="text-3xl font-bold mb-6 text-start">
         E se você pudesse remediar uma crise antes mesmo que ela aconteça?
       </h1>
+      <h2 className="text-xl font-medium mb-6 text-primary text-start">
+      Foi para isso que a Tistto nasceu!
+      </h2>
       <p className="text-lg mb-6">
         Foi para isso que a Tistto nasceu! A história da Tistto começa muito
         antes do negócio, surgimos como fruto de uma dor vivida pela nossa
