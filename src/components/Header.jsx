@@ -11,7 +11,7 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-white p-2 relative">
+    <header className="bg-white p-2 border-b-4 border-primary relative">
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo */}
         {/* <div className="text-2xl text-primary font-bold font-['New Amsterdam']">

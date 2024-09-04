@@ -29,7 +29,7 @@ const Footer = () => {
             href="https://cnpja.com/office/55750535000171"
             target="_blank"
             className="hover:underline text-primary"
-            aria-label="Termos de Serviço da Tistto"
+            aria-label="CNPJ"
           >
             CNPJ:55.750.535/0001-71
           </a>
@@ -37,14 +37,20 @@ const Footer = () => {
             href="https://maps.app.goo.gl/7DsHtXgQzjzazJjAA"
             target="_blank"
             className="hover:underline text-primary"
-            aria-label="Termos de Serviço da Tistto"
+            aria-label="Endereço"
           >
             Avenida Paulista, 1106, São Paulo / SP
           </a>
         </div>
         {/* Copyright Section */}
         <p className="text-center md:text-left text-sm">
-          &copy; 2024 Tistto. Todos os direitos reservados.
+          &copy; 2024 Tistto. Todos os direitos reservados.{" "}
+          <a
+            href="/terms-of-service"
+            className="text-primary font-barlow hover:underline"
+          >
+            Termos de Serviço
+          </a>
         </p>
       </div>
     </footer>
