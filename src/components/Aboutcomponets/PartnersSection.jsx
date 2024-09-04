@@ -14,7 +14,7 @@ const PartnersSection = () => {
           className="bg-white border rounded-lg shadow-md p-6 flex flex-col items-center"
         >
           <img
-            src="public/assets/brasilstartups.png"
+            src="/assets/brasilstartups.png"
             alt="Brasil Startups"
             className="w-32 h-32 object-contain mb-4"
           />
@@ -29,7 +29,7 @@ const PartnersSection = () => {
           className="bg-white border rounded-lg shadow-md p-6 flex flex-col items-center"
         >
           <img
-            src="public/assets/Antlerfundo.svg"
+            src="/assets/Antlerfundo.svg"
             alt="Antler"
             className="w-32 h-32 object-contain mb-4"
           />
@@ -42,7 +42,7 @@ const PartnersSection = () => {
           className="bg-white border rounded-lg shadow-md p-6 flex flex-col items-center"
         >
           <img
-            src="public/assets/Googlestartups.webp"
+            src="/assets/Googlestartups.webp"
             alt="Google Startups"
             className="w-32 h-32 object-contain mb-4"
           />
@@ -57,7 +57,7 @@ const PartnersSection = () => {
           className="bg-white border rounded-lg shadow-md p-6 flex flex-col items-center"
         >
           <img
-            src="public/assets/astella_investimentos.jpeg"
+            src="/assets/astella_investimentos.jpeg"
             alt="astELLAS"
             className="w-32 h-32 object-contain mb-4"
           />
