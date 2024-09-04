@@ -1,0 +1,51 @@
+/* styles/globals.css */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Importar fontes */
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam:wght@400;700&display=swap');
+
+/* Definir variáveis de cor (não necessário se usar Tailwind) */
+:root {
+  --color-primary: #f42c4c;
+  --color-primarydark: #c2253c;
+  --color-secondary: #2b045b;
+  --color-accent: #f3dbbb;
+  --color-complementary: #745c8c;
+  --color-white: #ffffff;
+}
+
+/* Aplicar fontes e cores */
+/* body {
+  @apply font-normal text-gray-900 bg-gray-100;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply font-barlow font-bold text-gray-100;
+}
+
+p, span, a {
+  @apply font-barlow;
+}
+.header-link {
+  @apply mx-2;  */
+
+/* button {
+  @apply bg-primary text-white hover:bg-red-700;
+}
+
+.alert-success {
+  @apply bg-accent text-gray-800;
+}
+
+.alert-error {
+  @apply bg-primary text-white;
+} */
+
+/* Exemplo de estilização de fundo e bordas */
+/* .card {
+  @apply bg-accent p-4 rounded shadow-md;
+} */
