@@ -6,7 +6,7 @@ const AboutUs = () => {
       <h1 className="text-3xl font-bold mb-6 text-start">
         E se você pudesse remediar uma crise antes mesmo que ela aconteça?
       </h1>
-      <h2 className="text-xl font-medium mb-6 text-primary text-start">
+      <h2 className="text-xl font-medium mb-6 text-blue-800 text-start">
       Foi para isso que a Tistto nasceu!
       </h2>
       <p className="text-lg mb-6">

@@ -11,10 +11,10 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-white p-2 border-b-4 border-primary relative">
+    <header className="bg-white p-2 border-b-4 border-blue-700 relative">
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo */}
-        {/* <div className="text-2xl text-primary font-bold font-['New Amsterdam']">
+        {/* <div className="text-2xl text-blue-700 font-bold font-['New Amsterdam']">
           Tistto
         </div> */}
         {/* Logo */}
@@ -27,11 +27,11 @@ const Header = () => {
         </div>
 
         {/* Menu Desktop */}
-        <nav className="hidden md:flex text-primary font-bold text-xl items-center space-x-6">
-          <a href="/" className="hover:text-primarydark ">
+        <nav className="hidden md:flex text-blue-700 font-bold text-xl items-center space-x-6">
+          <a href="/" className="hover:text-blue-700dark ">
             Home
           </a>
-          <a href="/about" className="hover:text-primarydark ">
+          <a href="/about" className="hover:text-blue-700dark ">
             Sobre
           </a>
         </nav>
@@ -40,7 +40,7 @@ const Header = () => {
         <div className="hidden md:flex items-center">
           <a
             href="/login"
-            className="bg-primary text-white px-4 py-2 rounded font-semibold hover:bg-primarydark hover:text-white transition-colors duration-200"
+            className="bg-blue-700 text-white px-4 py-2 rounded font-semibold hover:bg-blue-700dark hover:text-white transition-colors duration-200"
           >
             Login
           </a>
@@ -56,7 +56,7 @@ const Header = () => {
           <button
             onClick={toggleMenu}
             aria-label="Toggle Menu"
-            className="text-primary"
+            className="text-blue-700"
           >
             {isMenuOpen ? (
               <AiOutlineClose size={30} />
@@ -78,28 +78,28 @@ const Header = () => {
           <button
             onClick={toggleMenu}
             aria-label="Close Menu"
-            className="text-primary mb-4"
+            className="text-blue-700 mb-4"
           >
             <AiOutlineClose size={30} />
           </button>
           <a
             href="/"
             onClick={toggleMenu}
-            className="hover:text-primary text-white transition py-2 w-full text-right"
+            className="hover:text-blue-700 text-white transition py-2 w-full text-right"
           >
             Home
           </a>
           <a
             href="/about"
             onClick={toggleMenu}
-            className="hover:text-primary text-white transition py-2 w-full text-right"
+            className="hover:text-blue-700 text-white transition py-2 w-full text-right"
           >
             Sobre
           </a>
           <a
             href="/login"
             onClick={toggleMenu}
-            className="bg-primary text-white px-4 py-2 rounded hover:bg-primarydark hover:text-white transition-colors duration-200 mt-4 w-full text-right"
+            className="bg-blue-700 text-white px-4 py-2 rounded hover:bg-blue-700dark hover:text-white transition-colors duration-200 mt-4 w-full text-right"
           >
             Login
           </a>

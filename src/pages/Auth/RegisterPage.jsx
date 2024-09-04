@@ -78,7 +78,7 @@ const RegisterPage = () => {
               <input
                 type="text"
                 id="name"
-                className="w-full border border-gray-300 rounded-md p-2 focus:outline-none focus:ring-2 focus:ring-primary-color"
+                className="w-full border border-gray-300 rounded-md p-2 focus:outline-none focus:ring-2 focus:ring-blue-800"
                 placeholder="Digite seu nome"
                 value={name}
                 onChange={(e) => setName(e.target.value)}
@@ -95,7 +95,7 @@ const RegisterPage = () => {
               <input
                 type="email"
                 id="email"
-                className="w-full border border-gray-300 rounded-md p-2 focus:outline-none focus:ring-2 focus:ring-primary-color"
+                className="w-full border border-gray-300 rounded-md p-2 focus:outline-none focus:ring-2 focus:ring-blue-800"
                 placeholder="Digite seu e-mail"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
@@ -112,7 +112,7 @@ const RegisterPage = () => {
               <input
                 type="password"
                 id="password"
-                className="w-full border border-gray-300 rounded-md p-2 focus:outline-none focus:ring-2 focus:ring-primary-color"
+                className="w-full border border-gray-300 rounded-md p-2 focus:outline-none focus:ring-2 focus:ring-blue-800"
                 placeholder="Digite sua senha"
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
@@ -129,7 +129,7 @@ const RegisterPage = () => {
               <input
                 type="password"
                 id="confirmPassword"
-                className="w-full border border-gray-300 rounded-md p-2 focus:outline-none focus:ring-2 focus:ring-primary-color"
+                className="w-full border border-gray-300 rounded-md p-2 focus:outline-none focus:ring-2 focus:ring-blue-800"
                 placeholder="Confirme sua senha"
                 value={confirmPassword}
                 onChange={(e) => setConfirmPassword(e.target.value)}
@@ -138,7 +138,7 @@ const RegisterPage = () => {
             </div>
             <button
               type="submit"
-              className="w-full bg-primary text-white font-medium py-2 rounded-md hover:bg-secondary-color transition-colors"
+              className="w-full bg-blue-800 text-white font-medium py-2 rounded-md hover:bg-secondary transition-colors"
               disabled={loading}
             >
               {loading ? "Registrando..." : "Registrar"}
@@ -148,7 +148,7 @@ const RegisterPage = () => {
                 Já tem uma conta?{" "}
                 <a
                   href="/login"
-                  className="text-primarydark font-bold hover:underline"
+                  className="text-blue-800 font-bold hover:underline"
                 >
                   Faça login
                 </a>
@@ -157,7 +157,7 @@ const RegisterPage = () => {
                 Você concorda com nossos{" "}
                 <a
                   href="/terms-of-service"
-                  className="text-primary font-semibold hover:underline"
+                  className="text-blue-800 font-semibold hover:underline"
                 >
                   Termos de Serviço{"?"}
                 </a>
@@ -168,7 +168,7 @@ const RegisterPage = () => {
       </div>
 
       {/* Lado do Texto Informativo */}
-      <div className="flex items-center bg-primary justify-center w-full md:w-1/2 p-8 order-2 md:order-none">
+      <div className="flex items-center bg-blue-800 justify-center w-full md:w-1/2 p-8 order-2 md:order-none">
         <div className="text-white max-w-sm text-center md:text-left">
           <h2 className="text-3xl font-bold mb-4">
             Crie sua Conta e Transforme o Controle da Sua Marca!

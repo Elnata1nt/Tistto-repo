@@ -15,12 +15,12 @@ const MonitoringSection = () => {
         MONITORAMOS AS PRINCIPAIS PLATAFORMAS
       </h2>
       <div className="flex justify-center space-x-4 mb-8">
-        <FaGoogle className="text-4xl text-primary" />
-        <FaInstagram className="text-4xl text-primary" />
-        <FaFacebook className="text-4xl text-primary" />
-        <FaTwitter className="text-4xl text-primary" />
-        <FaYoutube className="text-4xl text-primary" />
-        <FaLinkedin className="text-4xl text-primary" />
+        <FaGoogle className="text-4xl text-blue-800" />
+        <FaInstagram className="text-4xl text-blue-800" />
+        <FaFacebook className="text-4xl text-blue-800" />
+        <FaTwitter className="text-4xl text-blue-800" />
+        <FaYoutube className="text-4xl text-blue-800" />
+        <FaLinkedin className="text-4xl text-blue-800" />
       </div>
       <p className="text-lg text-complementary mb-12">
         Aqui você pode incluir detalhes sobre as plataformas monitoradas e o visual do dashboard.
@@ -31,7 +31,7 @@ const MonitoringSection = () => {
       <div className="relative mx-auto max-w-7xl">
         <img src='/assets/dashboard.png' alt="Dashboard Mockup" className="rounded-lg" />
       </div>
-      <button onClick={handleExploreClick} className="mt-8 bg-primary text-white py-2 px-6 rounded-md hover:bg-secondary transition-colors">
+      <button onClick={handleExploreClick} className="mt-8 bg-blue-800 text-white py-2 px-6 rounded-md hover:bg-secondary transition-colors">
         Explore o Dashboard
       </button>
     </section>

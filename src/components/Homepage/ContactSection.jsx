@@ -52,7 +52,7 @@ const ContactSection = () => {
   };
 
   return (
-    <section className="bg-black py-16 px-10 border-b-2 border-primary">
+    <section className="bg-black py-16 px-10 border-b-2 border-blue-800">
       <div className="container mx-auto flex flex-col lg:flex-row items-center lg:justify-between">
         {/* Descrições */}
         <div className="lg:w-1/2 mb-8 lg:mb-0 lg:pr-8">
@@ -109,7 +109,7 @@ const ContactSection = () => {
 
             <button
               type="submit"
-              className="w-full bg-primary text-white font-semibold py-2 px-6 rounded-md hover:bg-opacity-90 focus:outline-none focus:ring-2 focus:ring-primary"
+              className="w-full bg-blue-800 text-white font-semibold py-2 px-6 rounded-md hover:bg-opacity-90 focus:outline-none focus:ring-2 focus:ring-blue-800"
               disabled={isSubmitting}
             >
               {isSubmitting ? 'Enviando...' : 'Enviar'}

@@ -49,7 +49,7 @@ const LoginPage = () => {
   return (
     <div className="lg:min-h-screen flex flex-col md:flex-row">
       {/* Lado do Texto Informativo */}
-      <div className="flex items-center bg-primary justify-center w-full md:w-1/2 p-8 order-2 md:order-none">
+      <div className="flex items-center bg-blue-800 justify-center w-full md:w-1/2 p-8 order-2 md:order-none">
         <div className="text-white max-w-sm text-center md:text-left">
           <h2 className="text-3xl font-bold mb-4">Acesse Seu Dashboard</h2>
           <p className="text-lg font-light">
@@ -85,7 +85,7 @@ const LoginPage = () => {
               <input
                 type="email"
                 id="email"
-                className="w-full border border-gray-300 rounded-md p-2 focus:outline-none focus:ring-2 focus:ring-primary-color"
+                className="w-full border border-gray-300 rounded-md p-2 focus:outline-none focus:ring-2 focus:ring-blue-800-color"
                 placeholder="Digite seu e-mail"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
@@ -104,7 +104,7 @@ const LoginPage = () => {
               <input
                 type="password"
                 id="password"
-                className="w-full border border-gray-300 rounded-md p-2 focus:outline-none focus:ring-2 focus:ring-primary-color"
+                className="w-full border border-gray-300 rounded-md p-2 focus:outline-none focus:ring-2 focus:ring-blue-800"
                 placeholder="Digite sua senha"
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
@@ -115,7 +115,7 @@ const LoginPage = () => {
             {/* Botão de Login */}
             <button
               type="submit"
-              className="w-full bg-primary text-white font-medium py-3 rounded-lg hover:bg-primarydark transition-colors shadow-lg hover:shadow-xl"
+              className="w-full bg-blue-800 text-white font-medium py-3 rounded-lg hover:bg-blue-800 transition-colors shadow-lg hover:shadow-xl"
               disabled={loading}
             >
               {loading ? "Entrando..." : "Entrar"}
@@ -128,7 +128,7 @@ const LoginPage = () => {
               </a>
               <a
                 href="/register"
-                className="text-primary hover:underline font-semibold transition-all"
+                className="text-blue-800 hover:underline font-semibold transition-all"
               >
                 Registrar-se
               </a>

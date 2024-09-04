@@ -28,7 +28,7 @@ const Footer = () => {
           <a
             href="https://cnpja.com/office/55750535000171"
             target="_blank"
-            className="hover:underline text-primary"
+            className="hover:underline text-blue-800"
             aria-label="CNPJ"
           >
             CNPJ:55.750.535/0001-71
@@ -36,7 +36,7 @@ const Footer = () => {
           <a
             href="https://maps.app.goo.gl/7DsHtXgQzjzazJjAA"
             target="_blank"
-            className="hover:underline text-primary"
+            className="hover:underline text-blue-800"
             aria-label="Endereço"
           >
             Avenida Paulista, 1106, São Paulo / SP
@@ -47,7 +47,7 @@ const Footer = () => {
           &copy; 2024 Tistto. Todos os direitos reservados.{" "}
           <a
             href="/terms-of-service"
-            className="text-primary font-barlow hover:underline"
+            className="text-blue-800 font-barlow hover:underline"
           >
             Termos de Serviço
           </a>
