@@ -20,7 +20,7 @@ const Header = () => {
         {/* Logo */}
         <div className="flex items-center">
           <img
-            src="public/assets/Tistto_principal.png"
+            src="/assets/Tistto_principal.png"
             alt="Tistto Logo"
             className="h-16" // ajuste o tamanho conforme necessário
           />
