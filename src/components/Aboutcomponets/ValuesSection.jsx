@@ -2,7 +2,7 @@ import React from "react";
 
 const ValuesSection = () => {
   return (
-    <section className="max-w-4xl rounded-lg bg-primary mx-auto px-4 py-12 mt-12">
+    <section className="max-w-4xl lg:rounded-lg bg-primary mx-auto px-4 py-12 mt-12">
       <h2 className="text-2xl font-bold mb-6 text-center text-white">
         CONHEÇA NOSSOS VALORES
       </h2>
